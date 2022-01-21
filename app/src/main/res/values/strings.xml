@@ -2,11 +2,11 @@
     <string name="app_name">Buku Harian Rembang</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
+    <string name="first_fragment_label">Welcome</string>
     <string name="second_fragment_label">Second Fragment</string>
-    <string name="login_fragment_label">Login Fragment</string>
-    <string name="menu_utama_fragment_label">Menu Utama Fragment</string>
-    <string name="entri_aktivitas_fragment_label">Entri Aktivitas Fragment</string>
+    <string name="login_fragment_label">Login</string>
+    <string name="menu_utama_fragment_label">Menu Utama</string>
+    <string name="entri_aktivitas_fragment_label">Entri Aktivitas</string>
     <string name="next">Next</string>
     <string name="buka_menu">Buka Menu</string>
     <string name="buka_login">Login</string>

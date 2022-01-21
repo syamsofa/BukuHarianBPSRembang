@@ -56,7 +56,9 @@
         android:name="com.example.bukuharianrembang.EntriAktivitasFragment"
         android:label="@string/entri_aktivitas_fragment_label"
         tools:layout="@layout/fragment_entri_aktivitas">
-
+        <action
+            android:id="@+id/action_EntriAktivitasFragment_to_MenuUtamaFragment"
+            app:destination="@id/MenuUtamaFragment" />
 
     </fragment>
 

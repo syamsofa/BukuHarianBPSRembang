@@ -3,22 +3,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tv_welcome"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:text="Welcome"
-        android:textAlignment="center" />
-
-    <RelativeLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/tv_welcome"
 
         android:gravity="center_horizontal"
 
         android:padding="20dp">
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="Menu Utama"
+            android:textAlignment="center" />
+
 
 
         <ImageView
@@ -38,5 +38,5 @@
             android:text="Entri Aktivitas"
             android:textAlignment="center"
             android:textSize="30dp" />
-    </RelativeLayout>
+    </LinearLayout>
 </RelativeLayout>
